@@ -1,0 +1,22 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "Repo for the interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmer106/interview.git"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/programmer106/interview/issues"
+  },
+  "workspaces": [
+    "workspaces/*"
+  ],
+  "homepage": "https://github.com/programmer106/interview#readme"
+}
