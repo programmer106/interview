@@ -4,7 +4,7 @@
   "description": "Repo for the interview",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "nx run-many -t test"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "workspaces": [
     "workspaces/*"
   ],
-  "homepage": "https://github.com/programmer106/interview#readme"
+  "homepage": "https://github.com/programmer106/interview#readme",
+  "dependencies": {
+    "nx": "^16.8.1"
+  }
 }
